@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: #E0E0E0;
+    color: #212121;
+    font-size: 24px;
+}
+h1 {
+    color:#006064;
+    font-weight: 400;
+    font-size: 32px;
+}
+a:link {
+	color:#006064;
+	text-decoration: underline;
+}
+a:active {
+	color:#006064;
+	text-decoration: underline;
+}
+a:visited {
+	color:#006064;
+	text-decoration: underline;
+}
+a:hover {
+	color:#006064;
+	text-decoration: none;
+}
+#logo{
+    color: white;
+}
+#content{
+    max-width: 1200px;
+    padding: 8px;
+    background: #fafafa;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:100px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+    z-index: 0;
+}
+#head {
+    background: #00BCD4;
+    width: 100%;
+    margin: 0px;
+    word-spacing: 32px;
+    padding: 16px;
+    color: #006064;
+    font-size: 40px;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 100;
+}
+.hLink:link {
+	color:#006064;
+	text-decoration: none;
+}
+.hLink:active {
+	color:#ffffff;
+	text-decoration: none;
+}
+.hLink:visited  {
+	color:#006064;
+	text-decoration: none;
+}
+.hLink:hover {
+	color:#B2EBF2;
+	text-decoration: none;
+}
+#icon{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    max-width: 800px;
+}
+.detail{
+    color: #424242;
+    font-size: 18px;
+}
