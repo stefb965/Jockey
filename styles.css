@@ -9,6 +9,7 @@ h1 {
     color:#006064;
     font-weight: 400;
     font-size: 32px;
+	padding-left:32px;
 }
 a:link {
 	color:#006064;
@@ -31,12 +32,12 @@ a:hover {
 }
 #content{
     max-width: 1200px;
-    padding: 8px;
+    padding:8px;
     background: #fafafa;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top:100px;
+    top:80px;
     -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
     z-index: 0;
@@ -45,14 +46,24 @@ a:hover {
     background: #00BCD4;
     width: 100%;
     margin: 0px;
-    word-spacing: 32px;
-    padding: 16px;
     color: #006064;
     font-size: 40px;
-    -webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,0.5);
-    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.5);
     position: fixed;
     z-index: 100;
+}
+#headInside{
+	max-width: 1184px;
+	padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#extendedHead{
+	background: #00BCD4;
+    width: 100%;
+	height:400px;
+    margin: 0px;
+    position: fixed;
+    z-index: -1;
 }
 .hLink:link {
 	color:#006064;
@@ -69,6 +80,13 @@ a:hover {
 .hLink:hover {
 	color:#B2EBF2;
 	text-decoration: none;
+}
+.hLeft{
+	float:left;
+}
+.hRight{
+	float:right;
+	padding-left:64px;
 }
 #icon{
     text-align: center;
