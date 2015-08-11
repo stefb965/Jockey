@@ -1,38 +1,56 @@
 <html>
     <head>
         <title>Jockey</title>
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,700,400' rel='stylesheet' type='text/css'>
-        <link id="styles" href="styles.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.cyan-cyan.min.css" /> 
+		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
     </head>
     
 </body>    
-    <div id="head">
-		<div id="headInside">
-			<span id="logo" class="hLeft">Jockey</span> &nbsp; 
-			<a class="hLink hRight" href="https://github.com/marverenic/Jockey">Source</a>
-			<a class="hLink hRight" href="https://github.com/marverenic/Jockey/tree/build">Builds</a>
-		</div>
+    <!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title" style="color:white; font-size:28px;">Jockey</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect"  style="height:64px;color:white;" href="https://github.com/marverenic/Jockey/tree/build"><i class="material-icons" style="padding:14px;font-size:36px;">get_app</i></a>
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect"  style="height:64px;color:white;" href="https://github.com/marverenic/Jockey"><i class="material-icons" style="padding:14px;font-size:36px;">code</i></a>
+      </nav>
     </div>
-	<div id="extendedHead"> </div>
-    <div style="padding-left:16px; padding-right:16px">
-        <div id="content">
-            <p id="icon"><img src="jockey_icon.png" width="256px"/></p>
-            <p class="center">Jockey is a music player for Android</p>
-            <p class="center detail">It's open source, built around simplicity, fast, and it follows Google's Material Design Guidelines</p>
-            <!--h1>Screenshots</h1-->
-            <h1>More Information</h1>
-            <p class="center detail">For more information including release notes, and to get in touch with the developer, please visit Jockey's GitHub Page.</p>
-            <h1>Download Jockey</h1>
-            <p class="center detail">Jockey is currently in alpha, meaning that some features aren't implemented, rough around the edges, untested or horribly broken. If this sounds exciting, then you can download and install the compiled application or build it yourself. All of Jockey's downloads are hosted on GitHub.
-			<br />
-			<br /><a href="https://github.com/marverenic/Jockey" style="float:left;">Browse Jockey's Source Code</a><a href="https://github.com/marverenic/Jockey/tree/build" style="float:right;">Browse Compiled Downloads</a>
-			<br />
-            <h1>Install Jockey</h1>
-            <p class="center detail">In order to install Jockey, you will need to enable installation of apps from "Unknown Sources" (in the Security page of the Settings app on some phones) as shown in the gif below: 
-            <br /><img class="gfyitem" data-id="LeanAdmirableFly" />
-            <br />Note that this can vary widely between devices</p>
-        </div>
-    </div>
+  </header>
+  <main class="mdl-layout__content mdl-color--grey-100">
+    <div class="page-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col" style="border-radius: 2px;padding: 80px 56px; margin-bottom: 20px; margin-left: auto; margin-right: auto;">
+		<!-- Page Content -->
+			<div style="text-align:center"/><img src="img/jockey_icon.png" width="256px"></div>
+			<h1>Jockey</h1>
+			<p>Jockey is a music player for Android. It's open source, built around simplicity, fast, and follows Google's Material Design Guidelines.</p>
+			<h3>Screenshots</h3>
+			<div class="demo-grid-1 mdl-grid">
+				<div class="mdl-cell mdl-cell--4-col"><a href="img/screenshot-1.png" target="_blank"><img src="img/screenshot-1.png" width="100%"></a></div>
+				<div class="mdl-cell mdl-cell--4-col"><a href="img/screenshot-2.png" target="_blank"><img src="img/screenshot-2.png" width="100%"></a></div>
+				<div class="mdl-cell mdl-cell--4-col"><a href="img/screenshot-3.png" target="_blank"><img src="img/screenshot-3.png" width="100%"></a></div>
+				<div class="mdl-cell mdl-cell--4-col"><a href="img/screenshot-4.png" target="_blank"><img src="img/screenshot-4.png" width="100%"></a></div>
+				<div class="mdl-cell mdl-cell--4-col"><a href="img/screenshot-5.png" target="_blank"><img src="img/screenshot-5.png" width="100%"></a></div>
+			</div>
+			<h3>Get Jockey</h3>
+			<p>Jockey is currently in alpha, meaning that some features aren't implemented, rough around the edges, untested or horribly broken. If this sounds exciting, then you can download and install the compiled application or build it yourself. All of Jockey's downloads are hosted on GitHub. </p>
+			<div style="text-align:center"/>
+			<a href="https://github.com/marverenic/Jockey"><button class="mdl-button mdl-js-button mdl-button--primary">Browse Source</button></a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://github.com/marverenic/Jockey/tree/build"><button class="mdl-button mdl-js-button mdl-button--primary">Download</button></a>
+			</div>
+			<h4>Installing Apps Outside of the Play Store</h4>
+			<p>In order to install Jockey, you will need to enable installation of apps from "Unknown Sources" (in the Security page of the Settings app on some phones) as shown below</p>
+			<div style="text-align:center"/><img class="gfyitem" data-id="LeanAdmirableFly" />
+			<p>Note that this can vary widely between devices</p></div>	
+	</div>
+  </main>
+</div>
+
 <body>
     
 <script>
